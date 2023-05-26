@@ -39,10 +39,10 @@ fn main() {
         };
         if conversion == 1 {
             let degrees_out = (degrees_in - 32.0 ) * 5.0 / 9.0;
-            println!("\t{}°F is {}°C\n",degrees_in,degrees_out);
+            println!("\t{degrees_in}°F is {degrees_out}°C\n");
         } else if conversion == 2 {
             let degrees_out = degrees_in * 9.0 / 5.0 + 32.0;
-            println!("\t{}°C is {}°F\n",degrees_in,degrees_out);
+            println!("\t{degrees_in}°C is {degrees_out}°F\n");
         } 
         
     }
